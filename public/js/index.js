@@ -6,6 +6,9 @@ fetch("/api/transaction")
     return response.json();
   })
   .then(data => {
+    console.log('response', {
+      data: data
+    })
     // save db data on global variable
     transactions = data;
 
