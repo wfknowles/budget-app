@@ -13,10 +13,10 @@
     THEN the deposits or expenses added while they were offline are added to their transaction history and their totals are updated
 
 ## Tech Criteria
-    * Application must include a service worker.
-    * Application must include a web manifest.
+    Application must include a service worker.
+    Application must include a web manifest.
     * Application must use IndexedDB for offline functionality.
-    * Application must be deployed to Heroku.
+    Application must be deployed to Heroku.
 
 ## Offline
     You’ll need to use IndexedDB to add offline functionality. Review Module 18: NoSQL, Lesson 4: Add Offline Persistence with IndexedDB as a refresher on how to add this to your application.
